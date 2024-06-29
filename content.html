@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio with Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Monoton&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Shojumaru&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body class="bg-black fade-in" >
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md">
+       
+
+        <div class="container justify-center space-x-10 mx-auto p-4 flex md:justify-end items-center">
+                <a href="index.html" class="text-gray-600 hover:text-gray-900">Home</a>
+                <a href="#about" class="text-gray-600 hover:text-gray-900">About</a>
+                <a href="#projects" class="text-gray-600 hover:text-gray-900">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900">Contact</a>
+            
+        </div>
+       
+    </nav>
+    <!-- Main Content -->
+    <div class="container mx-auto p-4 mt-4  h-full" id="total">
+        <!-- First Row (One Column) -->
+            
+        <div class="relative h-screen flex items-center justify-center">
+            <div class=" bg-gray-900"></div>
+            <div class=" text-center text-white md:p-10">
+              <h1 class="text-4xl sm:text-5xl md:text-8xl font-bold md:p-10">I am Vignesh</h1>
+              <p class="mt-3 text-lg sm:text-xl text-gray-300">Frontend Developer</p>
+              <div class="mt-5 flex justify-center md:p-10">
+                <a href="#" class="bg-teal-500 hover:bg-teal-600 text-white py-3 px-6 rounded-lg text-lg font-medium">Download Resume</a>
+              </div>
+                <p class="text-gray-300 text-lg mt-6 md:mt-4">Phone: +1234567890</p>
+                <p class="text-gray-300 text-lg  mt-6 md:mt-4">Email: example@example.com</p>
+            </div>
+          </div>
+          
+          
+
+                
+        <!-- Second Row (Two Columns) -->
+        
+
+        
+          
+        
+
+        <!-- Third Row (Three Columns) -->
+        <div class=" text-white py-4 rounded-xl blocktest md:mt-20">
+            <h1 class="shojumaru-regular text-4xl md:text-7xl text-center text-white bg-black m-3">EDUCATION</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4 md:mt-20 ">
+            <div id="projects" class=" p-6 rounded-lg     blockleft text-white bg-teal-500 edu-glow border-2 border-white">
+
+                <h1 class="font-extrabold text-center p-4 text-2xl  ">SSLC (2012-2013)</h1>
+            <div class=" text-white p-6 text-center">
+                <p class="text-xl mb-4">Prince Matriculation Higher Secondary School</p>
+                <p class="text-3xl text-white animate-pulse">91.80%</p>
+            </div>
+            </div>
+
+            <div class="bg-teal-500 p-6 rounded-lg   blocktest text-white  edu-glow border-2 border-white">
+                <h1 class="font-extrabold text-center p-4 text-2xl ">HSC (2014-2015)</h1>
+            <div class="text-white bg-transparent text-black p-6 text-center">
+                <p class="text-white text-xl mb-4">Prince Matriculation Higher Secondary School</p>
+                <p class="text-3xl text-white animate-pulse">77.42%</p>
+            </div>
+            </div>
+
+            <div class="bg-teal-500 p-6 rounded-lg  blockright text-white  edu-glow border-2 border-white">
+                <h1 class="font-extrabold text-center p-4 text-2xl ">BE MECH (2015-2019)</h1>
+                <div class=" text-white p-6 text-center">
+                    <p class=" text-xl mb-4">Peri Institute of Technology</p>
+                    <p class="text-3xl text-white animate-pulse">6.64%</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- SKILLS -->
+
+        <div class=" text-white py-4 rounded-xl blocktest">
+            <h1 class="shojumaru-regular text-4xl md:text-7xl text-center text-white bg-black m-3 md:mt-20">SKILLS</h1>
+        </div>
+        <div class="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-4 md:mt-20 p-2 blocktest ">
+
+            <div id="contact" class="text-white p-6 rounded-lg shadow-md ">
+                <h2 class="text-center text-xl font-bold">HTML</h2>
+                <div class=" flex justify-center items-center ">
+                <img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" alt="HTML5 Logo">
+            </div>
+
+            </div>
+            <div class="bg-transparent p-6 rounded-lg shadow-md text-white">
+                <h2 class="text-center text-xl font-bold">CSS</h2>
+                <div class=" flex justify-center items-center">
+
+                <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS Logo">
+            </div>
+        </div>
+
+            <div class="bg-transparent p-6 rounded-lg shadow-md text-white">
+                <h2 class="text-center text-xl  font-bold">javascript</h2>
+                <div class="  flex justify-center items-center">
+
+                <img src="https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000" alt="JavaScript Logo">
+            </div>
+        </div>
+
+            
+
+            <div class="bg-transparent p-6 rounded-lg shadow-md text-white">
+                <h2 class="text-xl text-center font-bold">Tailwind</h2>
+                <div class="  flex justify-center items-center">
+                <img  src="https://img.icons8.com/?size=100&id=WoopfRcDj3RF&format=png&color=000000" alt="Tailwind Logo">
+            </div>
+            </div>
+            <div class="bg-transparent p-6 rounded-lg shadow-md text-white">
+                <h2 class="text-center text-xl font-bold">React</h2>
+                <div class="  flex justify-center items-center">
+
+                <img src="https://img.icons8.com/?size=100&id=NfbyHexzVEDk&format=png&color=000000" alt="React Logo">
+            </div>
+        </div>
+
+            <div class="bg-transparent p-6 rounded-lg shadow-md text-white">
+                <h2 class="text-center text-xl font-bold">corejava</h2>
+                <div class="  flex justify-center items-center">
+
+                <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Java Logo">
+            </div>
+        </div>
+
+            <div class="bg-transparent p-6 rounded-lg shadow-md text-white">
+                <h2 class="text-center text-xl font-bold">postgressql</h2>
+                <div class="  flex justify-center items-center">
+
+                <img src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000" alt="PostgreSQL Logo">
+            </div>
+        </div>
+
+            <div class="bg-transparent p-6 rounded-lg shadow-md text-white">
+                <h2 class="text-center text-xl font-bold">GITHUB</h2>
+                <div class="  flex justify-center items-center">
+
+                <img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="Git Logo">
+            </div>
+        </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="bg-transparent p-6 rounded-lg shadow-md">
+            <h2 class="text-4xl md:text-7xl text-center text-white font-bold mb-6 shojumaru-regular md:mt-20">Experience</h2>
+
+
+            <div class=" md:mt-20">
+              <!-- Experience 1 -->
+              <div class="  p-5  text-white bg-black border-2 rounded-lg animate-glow blockleft">
+
+                <div class="">
+
+                  <h3 class="text-2xl font-semibold  ">Executive</h3>
+                  <p class="text-lg ">Hexaware Technologies</p>
+                  <p class="text-sm "> 2021 -2022</p>
+                  <ul class="p-8 list-disc ">
+                    <li class="p-1">Managed the adjudication process for international and domestic clients following background checks.</li>
+                    <li class="p-1">Analyzed background check results and determined eligibility for employment based on company policies and legal guidelines.</li>
+                    <li class="p-1"> Worked closely with the team to maintain optimum levels of communication to effectively and efficiently complete projects.</li>
+                    <li class="p-1">Proved successful working within tight deadlines and fast-paced atmosphere.</li>
+                    <li class="p-1">Took over team leadership in the absence of my team leader.  working as Quality Analyst auditing teams' work.</li>
+                    <li class="p-1">Conducted training sessions and meetings to rectify errors and improve quality. </li>
+                  </ul>   
+                </div>
+
+              </div>
+              <!-- <hr class="border-t border-gray-200"> -->
+
+
+              <!-- Experience 2 -->
+              <div class="  p-5  text-white bg-black border-2 rounded-lg  animate-glow blockright">
+                <div class="">
+                  <h3 class="text-2xl font-semibold">Intern</h3>
+                  <p class="text-lg ">Urbanrise Constructions</p>
+                  <p class="text-sm ">Jan  2023 - July 2023</p>
+                  <ul class="p-8 list-disc ">
+                    <li  class="p-1">Openbravo Software: Received training on using and managing Openbravo, an ERP software.</li>
+                    <li class="p-1">Linux: Learned to navigate and perform tasks in a Linux environment.</li>
+                    <li class="p-1">PostgreSQL Commands: Gained proficiency in PostgreSQL commands for data querying .</li>
+                    <li class="p-1"> Actively engaged with team leaders and senior developers, presenting queries and seeking guidance to enhance understanding.
+                    </li>
+                    <li class="p-1"> Generated  reports using Openbravo’s reporting tools (Jasper /Ireport) to provide data insights </li>
+            
+                </ul>
+
+                </div>
+              </div>
+
+              <!-- <hr class="border-t border-gray-200"> -->
+
+              <div class="  p-5  text-white bg-black border-2 rounded-lg  animate-glow blockleft">
+                <div>
+                  <h3 class="text-2xl font-semibold ">Software Developer</h3>
+                  <p class="text-lg ">Urbanrise Constructions</p>
+                  <p class="text-sm ">July  2023 - Jan 2024</p>
+                  <ul class="p-8 list-disc ">
+                    <li  class="p-1">Biometric Integration Project: Led the development of a new module integrating Openbravo ERP with the Face Bas biometric application via API. This automation captured and processed biometric data, eliminating manual intervention and streamlining the identification process.</li>
+                    <li class="p-1">Developed new windows and designed approval workflows, utilizing buttons and windows to streamline user interactions</li>
+    
+                    <li class="p-1">Collaborated with senior developers to understand approval workflows and designed them accordingly in Openbravo, ensuring compliance with business processes.</li>
+                    <li class="p-1">Implemented features to fetch and transfer data seamlessly between screens, enhancing data consistency and reducing manual errors.</li>
+                    <li class="p-1">Worked closely with senior team members, actively seeking guidance and contributing to team discussions to refine processes and solutions.
+                    </li>
+                    <li class="p-1">Developed custom reports that can be downloaded through a user-friendly button interface, providing valuable insights and easy access to critical data.</li>
+                    <li class="p-1">Developed background processes in Openbravo using Java, which run automatically at specific times to perform scheduled tasks and ensure timely data updates.</li>
+                </ul>
+
+                </div>
+              </div>
+              <!-- <hr class="border-t border-gray-200"> -->
+
+            </div>
+          </div>
+
+
+         
+
+
+
+          <div class=" mx-auto p-6 md:mt-20">
+            <h1 class="text-4xl md:text-7xl font-bold text-center mb-6 text-white gallery shojumaru-regular "> Certifications </h1>
+            <!-- Skills Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 blocktest md:mt-10">
+                <!-- Certification 1 -->
+                <div class="overflow-hidden bg-white rounded-lg shadow-md blocktest">
+                    <img src="images/a0976788-0e3b-437e-80f0-732c5ce2cd7c.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+                   
+                </div>
+                <!-- Certification 2 -->
+                <div class="overflow-hidden bg-white rounded-lg shadow-md blocktest">
+                    <img src="images/f681ad46-5844-4a9a-ba3c-b0f020050582.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+                  
+                </div>
+                <!-- Add more certifications as needed -->
+                <div class="overflow-hidden bg-white rounded-lg shadow-md blocktest">
+                    <img src="images/GuviCertification - 52Opx6J88m93731D1y.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+                   
+                </div>
+
+                 <!-- Add more certifications as needed -->
+                 <div class="overflow-hidden bg-white rounded-lg shadow-md blocktest">
+                    <img src="images/Screenshot 2024-06-22 075259.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+                    
+                </div>
+
+                 <!-- Add more certifications as needed -->
+                 <div class="overflow-hidden bg-white rounded-lg shadow-md blocktest">
+                    <img src="images/Screenshot 2024-06-22 075414.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+                   
+                </div>
+
+                 <!-- Add more certifications as needed -->
+                 <div class="overflow-hidden bg-white rounded-lg shadow-md blocktest">
+                    <img src="images/Screenshot 2024-06-22 075233.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+                   
+                </div>
+
+
+
+               
+
+                 <!-- Add more certifications as needed -->
+                 <div class="overflow-hidden bg-white rounded-lg shadow-md blocktest">
+                    <img src="images/Screenshot 2024-06-22 080038.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+                   
+                </div>
+
+                 <!-- Add more certifications as needed -->
+                 <div class="overflow-hidden bg-white rounded-lg shadow-md blocktest">
+                    <img src="images/Screenshot 2024-06-22 080005.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+                  
+                </div>
+
+
+
+                 <!-- Add more certifications as needed -->
+                 <div class="overflow-hidden bg-white rounded-lg shadow-md blocktest">
+                    <img src="images/Screenshot 2024-06-22 080106.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+                    
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <h2 class="text-4xl md:text-7xl text-center text-yellow-500 font-bold mb-6 shojumaru-regular md:mt-20">Achievements</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 block md:mt-20">
+            <div id="about" class="bg-transparent p-6 rounded-lg  border-2 border-yellow-300 achievemnts-glow ">
+                <img src="images/Screenshot 2024-06-22 080106.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+                
+            </div>
+            <div class="bg-transparent p-6 rounded-lg  border-2 border-yellow-300 achievemnts-glow  ">
+                <img src="images/Screenshot 2024-06-22 080106.png" alt="Certification 1" class="w-full h-auto transform transition duration-300 hover:scale-105">
+            </div>
+        </div>
+
+
+
+
+
+        <footer class="m-6 text-white md:mt-20 ">
+            <div class="h-auto w-full rounded-xl flex flex-col md:flex-row justify-center items-center p-3">
+                <div class="mb-4 md:mb-0 md:mr-10">
+                    <p class="p-4 md:p-10 bg-red-500 text-center rounded-lg">Connect with me</p>
+                </div>
+                <div class="flex flex-row justify-center items-center gap-4 md:gap-10">
+                    <a href="https://www.linkedin.com/" target="_blank" class=" transition-transform duration-300 ease-in-out transform hover:scale-110">
+                        <i class="fa-brands fa-linkedin text-4xl md:text-6xl"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" class=" transition-transform duration-300 ease-in-out transform hover:scale-110">
+                        <i class="fa-brands fa-github text-4xl md:text-6xl"></i>
+                    </a>
+                    <a href="mailto:your-email@example.com" class=" transition-transform duration-300 ease-in-out transform hover:scale-110">
+                        <i class="fa-solid fa-envelope text-4xl md:text-6xl"></i>
+                    </a>
+                    <a href="https://www.whatsapp.com/" target="_blank" class=" transition-transform duration-300 ease-in-out transform hover:scale-110">
+                        <i class="fa-brands fa-whatsapp text-4xl md:text-6xl"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class=" transition-transform duration-300 ease-in-out transform hover:scale-110">
+                        <i class="fab fa-twitter text-4xl md:text-6xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-4 text-center">
+                <p>&copy; 2024 Developer Vignesh. All rights reserved.</p>
+            </div>
+        </footer>
+        
+
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
